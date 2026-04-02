@@ -9,6 +9,13 @@ curvy lines
                     </svg>
                     
 
+.blob-purple {
+    position: absolute; top: 60px; right: 80px; width: 60px; height: 80px;
+    background: var(--purple); border-radius: 50% 20% 50% 30%; transform: rotate(30deg);
+    z-index: 1;
+  }
+
+
 red triangle
 <svg class="tri tri-red-tl" width="60" height="60" viewBox="0 0 60 60"><polygon points="30,0 60,60 0,60" fill="#e8453c" /></svg>
  <svg class="tri tri-red-br" width="48" height="48" viewBox="0 0 60 60"><polygon points="30,0 60,60 0,60" fill="#e8453c" /></svg>
