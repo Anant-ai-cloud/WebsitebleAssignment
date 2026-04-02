@@ -1,0 +1,14 @@
+for hero section
+
+curvy lines 
+<svg class="red-line" style="bottom:-60px;right:-40px;" width="200" height="120" viewBox="0 0 200 120" fill="none">
+      <path d="M0 80 Q60 20 120 60 Q170 90 200 40" stroke="#e8453c" stroke-width="2" fill="none" stroke-linecap="round"/>
+    </svg>
+     <svg className="squiggle-red" width="60" height="140" viewBox="0 0 60 140" fill="none">
+                        <path d="M30 5 Q55 35 20 60 Q-5 85 30 110 Q55 130 30 140" stroke="#e8453c" stroke-width="2.5" fill="none" stroke-linecap="round" />
+                    </svg>
+                    
+
+red triangle
+<svg class="tri tri-red-tl" width="60" height="60" viewBox="0 0 60 60"><polygon points="30,0 60,60 0,60" fill="#e8453c" /></svg>
+ <svg class="tri tri-red-br" width="48" height="48" viewBox="0 0 60 60"><polygon points="30,0 60,60 0,60" fill="#e8453c" /></svg>
