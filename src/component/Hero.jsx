@@ -29,7 +29,6 @@ function Hero() {
                 <p className="text-sm text-center mt-4">We are a team of strategists, designers communicators, researchers. Togeather,<br />
                     we belive that progress only hghappens when you refuse to play things safe.</p>
 
-              
                 <ImageFormatter Images={images} />
 
 
