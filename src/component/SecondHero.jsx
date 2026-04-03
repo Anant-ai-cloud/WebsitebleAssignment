@@ -3,13 +3,11 @@ import React from "react";
 
 
 
- function HeroSection() {
+function HeroSection() {
   return (
-    <div className="w-full max-w-4xl mx-auto overflow-hidden mt-[200px]">
+    <div className="w-full max-w-4xl ml-[400px] mx-auto overflow-hidden mt-[200px] mb-[50px]">
 
-      {/* ══════════════════════════════════════
-          TOP SECTION — white background
-      ══════════════════════════════════════ */}
+
       <div className="grid grid-cols-2 min-h-[280px] bg-white relative">
 
         {/* Left — Headline + body + link */}
@@ -23,8 +21,9 @@ import React from "react";
           </h1>
 
           <p className="text-[11.5px] text-[#999999] leading-[1.8] mb-4 max-w-[210px]">
-            We are a team of strategic business advisors who have been helping
-            companies grow, transform, and thrive for over two decades.
+            We are a team of strategists, designers communicators, researchers.
+            Togeather, we belive that progress only happens when you refuse
+            to play things safe.
           </p>
 
           <a
@@ -34,50 +33,40 @@ import React from "react";
             Read more
           </a>
 
-          {/* ── Red triangle pair — bottom-left corner ── */}
-          <div className="absolute bottom-0 left-0 z-20">
-            <svg
-              width="96"
-              height="84"
-              viewBox="0 0 96 84"
-              fill="none"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              {/* Large triangle pointing top-right */}
-              <polygon points="0,84 58,84 0,18" fill="#e52e2e" />
-              {/* Smaller semi-transparent triangle */}
-              <polygon points="42,84 80,84 80,46" fill="#e52e2e" opacity="0.5" />
-            </svg>
-          </div>
+          
         </div>
 
         {/* Right — Image with rounded bottom-left corner */}
-        <div className="relative overflow-hidden rounded-bl-[80px] bg-[#cbb89e]">
-          
+        <div className="relative overflow-hidden w-[270px] h-[270px]">
+
+
           <img
-            src="YOUR_TOP_IMAGE_URL"
+            src="/secondheroimg1.png"
             alt="Team collaborating"
-            className="w-full h-full object-cover block"
+            className="w-[230px] h-[230px] object-cover object-right block rounded-full absolute z-10"
           />
+          <img src="/Polygon3.svg" alt="" className="w-20 h-20 absolute right-2 top-6" />
+
         </div>
 
       </div>
 
-      {/* ══════════════════════════════════════
-          BOTTOM SECTION — warm beige background
-      ══════════════════════════════════════ */}
-      <div className="grid grid-cols-2 min-h-[230px] bg-[#f4f0ea] relative">
+      
+      <div className="grid grid-cols-2 min-h-[230px] relative">
 
-        {/* Left — Floating circle image (overlaps top section) */}
-        <div className="relative">
-          <div className="absolute -top-12 left-9 w-[156px] h-[156px] rounded-full overflow-hidden border-[6px] border-white shadow-lg z-20 bg-[#bfaa8c]">
-            {/* 👉 Replace src with your actual image */}
+       
+        <div className="relative top-[100px] mb-4">
+          <div className="absolute -top-12 left-9 w-[256px] h-[266px] rounded-full overflow-hidden border-[6px] border-white shadow-lg z-20 bg-[#bfaa8c]">
+           
             <img
-              src="YOUR_CIRCLE_IMAGE_URL"
+              src="/secondheroimg2.png"
               alt="Progress discussion"
-              className="w-full h-full object-cover"
+              className="w-full h-full object-cover object-left-bottom absolute z-10"
             />
+           
           </div>
+           <img src="/Polygon1.svg" alt="" className="absolute -top-12 left-2 w-20 h-20"/>
+            <img src="/Polygon1.svg" alt="" className="absolute top-12 left-32 w-20 h-20 z-20"/>
         </div>
 
         {/* Right — Headline + body + link */}
@@ -91,8 +80,9 @@ import React from "react";
           </h2>
 
           <p className="text-[11.5px] text-[#999999] leading-[1.8] mb-4 max-w-[210px]">
-            Our advisors work closely with leadership teams to design and
-            implement strategies that drive lasting, meaningful results.
+            We add a layer of fearless insights and action that allows change
+            makers to accelerate their progress in areas such as brand, design
+            digital, comms and social research.
           </p>
 
           <a
@@ -103,21 +93,7 @@ import React from "react";
           </a>
         </div>
 
-        {/* ── Red triangle pair — bottom-right corner ── */}
-        <div className="absolute bottom-0 right-0 z-20">
-          <svg
-            width="96"
-            height="84"
-            viewBox="0 0 96 84"
-            fill="none"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            {/* Large triangle pointing top-left */}
-            <polygon points="96,84 38,84 96,18" fill="#e52e2e" />
-            {/* Smaller semi-transparent triangle */}
-            <polygon points="54,84 16,84 16,46" fill="#e52e2e" opacity="0.5" />
-          </svg>
-        </div>
+        
 
       </div>
 
