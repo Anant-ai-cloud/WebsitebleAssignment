@@ -19,3 +19,5 @@ curvy lines
 red triangle
 <svg class="tri tri-red-tl" width="60" height="60" viewBox="0 0 60 60"><polygon points="30,0 60,60 0,60" fill="#e8453c" /></svg>
  <svg class="tri tri-red-br" width="48" height="48" viewBox="0 0 60 60"><polygon points="30,0 60,60 0,60" fill="#e8453c" /></svg>
+
+ 

@@ -10,15 +10,15 @@ function HeroSection() {
 
       <div className="grid grid-cols-2 min-h-[280px] bg-white relative">
 
-        {/* Left — Headline + body + link */}
+        
         <div className="flex flex-col justify-center px-10 pt-10 pb-16 relative z-10">
 
-          <h1
-            className="text-[28px] font-black leading-[1.18] text-[#111111] mb-3"
+           <h2
+            className="text-[24px] font-bold leading-[1.2] text-[#111111] mb-3"
             style={{ fontFamily: "'Playfair Display', serif" }}
           >
             Tomorrow should<br />be better than today.
-          </h1>
+          </h2>
 
           <p className="text-[11.5px] text-[#999999] leading-[1.8] mb-4 max-w-[210px]">
             We are a team of strategists, designers communicators, researchers.
@@ -36,7 +36,7 @@ function HeroSection() {
           
         </div>
 
-        {/* Right — Image with rounded bottom-left corner */}
+       
         <div className="relative overflow-hidden w-[270px] h-[270px]">
 
 
@@ -65,11 +65,11 @@ function HeroSection() {
             />
            
           </div>
-           <img src="/Polygon1.svg" alt="" className="absolute -top-12 left-2 w-20 h-20"/>
-            <img src="/Polygon1.svg" alt="" className="absolute top-12 left-32 w-20 h-20 z-20"/>
+           <img src="/Polygon1.svg" alt="" className="absolute -top-12 left-8 w-20 h-20"/>
+            <img src="/Polygon1.svg" alt="" className="absolute top-24 left-60 w-20 h-20 z-20"/>
         </div>
 
-        {/* Right — Headline + body + link */}
+        
         <div className="flex flex-col justify-center pr-10 pl-4 py-8 relative z-10">
 
           <h2

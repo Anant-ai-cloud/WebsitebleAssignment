@@ -35,15 +35,15 @@ const WhatWeCanOffer = () => {
       <div className="space-y-8">
         {/* Row 1 */}
         <div className="grid grid-cols-12 items-center border-b border-gray-200 pb-8">
-          <div className="col-span-4 text-gray-600 text-lg">
+          <div className="col-span-4 text-gray-600 text-base">
             Office of multiple<br />
             interest content
           </div>
-          <div className="col-span-5 text-3xl font-semibold tracking-tight">
+          <div className="col-span-5 text-2xl font-semibold tracking-tight">
             Collaborative &amp; partnership
           </div>
           <div className="col-span-3 flex justify-end">
-            <div className="text-4xl text-gray-300 hover:text-gray-400 transition-colors cursor-pointer">
+            <div className="text-3xl text-gray-300 hover:text-gray-400 transition-colors cursor-pointer">
               →
             </div>
           </div>
@@ -51,15 +51,15 @@ const WhatWeCanOffer = () => {
 
         {/* Row 2 */}
         <div className="grid grid-cols-12 items-center border-b border-gray-200 pb-8">
-          <div className="col-span-4 text-gray-600 text-lg">
+          <div className="col-span-4 text-gray-600 text-base">
             The hanger US Air force<br />
             digital experimental
           </div>
-          <div className="col-span-5 text-3xl font-semibold tracking-tight">
+          <div className="col-span-5 text-2xl font-semibold tracking-tight">
             We talk about our weight
           </div>
           <div className="col-span-3 flex justify-end">
-            <div className="text-4xl text-gray-300 hover:text-gray-400 transition-colors cursor-pointer">
+            <div className="text-3xl text-gray-300 hover:text-gray-400 transition-colors cursor-pointer">
               →
             </div>
           </div>
@@ -67,16 +67,16 @@ const WhatWeCanOffer = () => {
 
         {/* Row 3 */}
         <div className="grid grid-cols-12 items-center">
-          <div className="col-span-4 text-gray-600 text-lg">
+          <div className="col-span-4 text-gray-600 text-base">
             Delta faucet content,<br />
             social, digital
           </div>
-          <div className="col-span-5 text-3xl font-semibold tracking-tight relative">
+          <div className="col-span-5 text-2xl font-semibold tracking-tight relative">
             Piloting digital confidence
             
           </div>
           <div className="col-span-3 flex justify-end">
-            <div className="text-4xl text-gray-300 hover:text-gray-400 transition-colors cursor-pointer">
+            <div className="text-3xl text-gray-300 hover:text-gray-400 transition-colors cursor-pointer">
               →
             </div>
           </div>

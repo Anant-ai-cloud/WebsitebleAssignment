@@ -25,6 +25,7 @@ function Hero() {
                 <svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg" className="w-40 h-40 absolute top-[120px] right-[450px]">
                     <path fill="#8A3FFC" d="M15.2,7.8C2,31.6,-38.5,38.7,-45.6,18.3C-52.7,-2,-26.4,-49.7,-6.1,-53.2C14.2,-56.7,28.4,-16.1,15.2,7.8Z" transform="translate(100 100)" />
                 </svg>
+                
 
                 <p className="text-sm text-center mt-4">We are a team of strategists, designers communicators, researchers. Togeather,<br />
                     we belive that progress only hghappens when you refuse to play things safe.</p>
@@ -44,3 +45,4 @@ function Hero() {
 }
 
 export default Hero
+
